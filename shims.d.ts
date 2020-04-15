@@ -17,8 +17,8 @@ declare namespace BMS_IR {
      * initialises local variablesssss
      */
     //% blockId=ir_init
-    //% block="connect ir receiver to %pin" shim=Mbit_IR::init
-    function init(pin: Pins): void;
+    //% block="connect ir receiver" shim=Mbit_IR::init
+    function init(): void;
 }
 
 // Auto-generated. Do not edit. Really.
